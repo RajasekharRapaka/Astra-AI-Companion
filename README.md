@@ -1,1 +1,1 @@
-Visit the app here : https://astra-ai-companion-ysfbctbacf3xyjkumgfgph.streamlit.app/
+Visit the app here : https://astra-ai-companion.streamlit.app/
