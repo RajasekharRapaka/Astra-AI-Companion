@@ -14,11 +14,11 @@ st.markdown(
 )
 
 # Read the api key
-with open("Key.txt", "r") as f:
-    key = f.read().strip()
+# with open("Key.txt", "r") as f:
+#     key = f.read().strip()
 
-# Configure the API Key
-genai.configure(api_key=key)
+# # Configure the API Key
+# genai.configure(api_key=key)
 
 # Github Deployment Key
 st.write("DB_USERNAME:", st.secrets["DB_USERNAME"])
