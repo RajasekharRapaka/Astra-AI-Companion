@@ -20,6 +20,12 @@ with open("Key.txt", "r") as f:
 # Configure the API Key
 genai.configure(api_key=key)
 
+# Github Deployment Key
+st.write("DB_USERNAME:", st.secrets["DB_USERNAME"])
+st.write("DB_TOKEN:", st.secrets["DB_TOKEN"])
+# DB_USERNAME = "Astra"
+# DB_TOKEN = "AIzaSyAcalgnhVWxVE9ZOsSsKb3UySxGw1TIdKA"
+
 # Initiate a Gen AI Model with system instruction
 model = genai.GenerativeModel(
     model_name="gemini-1.5-pro-latest",
